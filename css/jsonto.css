@@ -1,0 +1,14 @@
+<style type="text/css">  
+    .fruit_information>.row>div>table img
+    {
+      cursor: -webkit-grab; cursor: grab;
+    }
+    .fruit_information
+    {
+      //background-color:#e8e8e8;
+    }
+    .add_fruit_information
+    {
+      margin-top: 2%;
+    }
+  </style>

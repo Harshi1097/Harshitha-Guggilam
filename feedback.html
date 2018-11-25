@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="feedback.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    <style>
+    .bg
+    {
+    /* The image used */
+    background-image: url("images/bg2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+    #box {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 1px 15px 15px #888888;
+    width:600px;
+}
+  </style>
+  </style>
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a style="font-family: segoe print;" class="navbar-brand" href="#">FRUITS CART</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li style="font-family: segoe print" ><a href="home.php" ><span class="glyphicon glyphicon-home">Home</a></li>
+        <li style="font-family: segoe print" class="active"><a href="feedback.html"><span class="glyphicon glyphicon-pencil"></span> Feedback</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+      <li style="font-family: segoe print" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Seller Login/Signup <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="sellerregistration.php">seller signup</a></li>
+          <li><a href="selllogin.php">seller login</a></li>
+          
+        </ul>
+      </li>
+        <li style="font-family: segoe print" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Customer Login/signup<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="custregistration.php">customer signup</a></li>
+          <li><a href="cuslogin.php">customer login</a></li>
+          
+        </ul>
+      </li>
+      
+   </ul> 
+   
+  </div>
+</nav>
+ <div class="bg">
+          <br><br><br><br><br>
+          <center>
+            <div id="box">
+              <form action="feedback.php" method="post">
+          <h2 style="font-family: segoe print">How do you feel about our services?</h2>
+          <input type="radio" name="rating" value="5">5<br>
+          <input type="radio" name="rating" value="4">4<br>
+          <input type="radio" name="rating" value="3">3<br>
+          <input type="radio" name="rating" value="2">2<br>
+          <input type="radio" name="rating" value="1">1<br>
+          <h4 style="font-family: segoe print">Thanks,anything else you would like to add?</h4>
+          <textarea name="textarea" rows="5" cols="50"></textarea><br>
+          
+          <button type="submit" class="btn btn-primary" style="font-family: segoe print; color: white"><b>Submit</b></button>
+        </form>
+        </div>
+        </center>
+      </div> 
+    </div>
+  </body>
+  </html>
+

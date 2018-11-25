@@ -1,0 +1,21 @@
+<style type="text/css">
+  		.result_container>.row>div:nth-child(2)>.result>ul>li
+      {
+        margin-top: 2%;
+        width: 100%;
+      height: 100px;
+      border: 1px solid black;
+      background-color:  #ffe6cc;
+      }
+      .result_container>.row>div:nth-child(2)>.result>ul>li>span
+      {
+        margin-left: 5%;
+
+      }
+      .result_container>.row>div:nth-child(2)>.result>ul>li>button
+      {
+        float: right;
+        background-color: #66b3ff;
+      }
+      
+</style>
