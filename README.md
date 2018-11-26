@@ -6,11 +6,11 @@ INTRODUCTION:
 This is the best platform that deals with the fruit purchases between buyer and seller.<br />
 The seller sell his fruits by putting them in online and customer will purchase them.
 
-REQUIREMENTS:
-->Install XAMPP software using link
-   https://www.apachefriends.org/download.html
+REQUIREMENTS:<br />
+->Install XAMPP software using link<br />
+   https://www.apachefriends.org/download.html<br />
 ->Create database with name "harshi".<br />
-    Example: harshi.sql
+    Example: harshi.sql<br />
 ->By using this sql file you can dump the data into the database to get details of sellers and buyers.<br />
 ->Create database containing fruits data.<br />
     Example: foodadda.sql
