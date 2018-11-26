@@ -39,13 +39,13 @@ home.php is the home page of the project.<br />
 ->seller can see the dashboard through php file<br />
   jsontojquery.php
 
-->New Fruits are added by the seller using php file<br />
-  add_fruit_information.php
-->Fruits data can be obtained from the server using file<br /> 
-  get_fruit_information.php
-->Fruits can be removed by the seller using file as<br />
-  delete_fruit_information.php
-->Fruits data can be updated using php file as<br />
+->New Fruits are added by the seller using php file
+  add_fruit_information.php<br />
+->Fruits data can be obtained from the server using file 
+  get_fruit_information.php<br />
+->Fruits can be removed by the seller using file as
+  delete_fruit_information.php<br />
+->Fruits data can be updated using php file as
   update_fruit_information.php
 
 
@@ -68,7 +68,7 @@ home.php is the home page of the project.<br />
 //FOLDERS IN MY PROJECT:
 
 ->Styles for the project are given in "css" folder.<br />
-//->Images for webpages are given in "images" folder.<br />
+->Images for webpages are given in "images" folder.<br />
 ->Javascripts validations and jqueries are given in "js" folder.<br />
 ->SQL files which are used for dumping data into database are given in "sql" folder<br />
 ->SQL queries regarding problem statement-2 are given in "problem statement-2" folder<br />
