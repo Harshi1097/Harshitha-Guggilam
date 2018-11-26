@@ -39,13 +39,13 @@ home.php is the home page of the project.<br />
 ->seller can see the dashboard through php file<br />
   jsontojquery.php
 
-->New Fruits are added by the seller using php file
+->New Fruits are added by the seller using php file<br />
   add_fruit_information.php<br />
-->Fruits data can be obtained from the server using file 
+->Fruits data can be obtained from the server using file<br />
   get_fruit_information.php<br />
-->Fruits can be removed by the seller using file as
+->Fruits can be removed by the seller using file<br />
   delete_fruit_information.php<br />
-->Fruits data can be updated using php file as
+->Fruits data can be updated using php file<br />
   update_fruit_information.php
 
 
