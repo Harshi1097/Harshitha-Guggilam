@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 25, 2018 at 05:17 PM
+-- Generation Time: Dec 01, 2018 at 04:17 PM
 -- Server version: 10.1.33-MariaDB
 -- PHP Version: 7.2.6
 
@@ -44,7 +44,27 @@ CREATE TABLE `custsignup` (
 
 INSERT INTO `custsignup` (`firstname`, `lastname`, `email`, `address`, `pan`, `phnumber`, `password`) VALUES
 ('ganguru', 'aadhya', 'adhyasri@gmail.com', 'ramesh blocks,benz circle,vijayawada', 'aadhy7890a', 2147483647, 'adhya20'),
-('guggilam', 'divya', 'divya123@gmail.com', 'rkpuram,hitech city,hyd', 'divya5678a', 2147483647, '5678aA@');
+('guggilam', 'divya', 'divya123@gmail.com', 'rkpuram,hitech city,hyd', 'divya5678a', 2147483647, '5678aA@'),
+('somavarapu', 'prasad', 'prasad56@gmail.com', 'keerthi blocks,madhapur,hyd', 'prasa7890h', 2147483647, 'prasad7');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `feedback`
+--
+
+CREATE TABLE `feedback` (
+  `rating` varchar(255) NOT NULL,
+  `feedback` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `feedback`
+--
+
+INSERT INTO `feedback` (`rating`, `feedback`) VALUES
+('4', 'Nice quality'),
+('3', 'Nice');
 
 -- --------------------------------------------------------
 
@@ -67,9 +87,13 @@ CREATE TABLE `sellersignup` (
 --
 
 INSERT INTO `sellersignup` (`firstname`, `lastname`, `email`, `address`, `pan`, `phnumber`, `password`) VALUES
+('sannidhi', 'aadhya', 'adhyasannidhi@gmail.com', 'keerthi blocks,madhapur,hyd', 'adhya1234a', 2147483647, 'adhya456'),
 ('gangireddy', 'anusha', 'anusha@gmail.com', 'vivek towers,ramesh nagar,hyd', 'efghi5678a', 2147483647, 'anusha27'),
 ('guggilam', 'harshitha', 'guggilamharshitha@gmail.com', 'ramanthapur,aparna towers,hyd', 'haree5678a', 2147483647, '12345aA@'),
+('devanaboina', 'divya', 'latha@gmail.com', 'gachibowli,aruna flats,hyd', 'latha4567a', 2147483647, 'latha345'),
+('madhu', 'gollapudi', 'madhu@gmail.com', '42-4-96,gkstreet,hyd', 'hjikl6789a', 2147483647, 'hare4'),
 ('kosuru', 'niharika', 'niharika345@gmail.com', 'himayat nagar,ramapuram,hyd', 'nihaa3456a', 2147483647, 'niha49'),
+('gundu', 'pushpa', 'pushpa@gmail.com', 'himachalnagar,rama blocks,hyd', 'efghi7890t', 2147483647, 'pushpa1'),
 ('sannidhi', 'sujatha', 'sujatha345@gmail.com', 'aruna towers,madhapur,hyderabad', 'harsh5678i', 2147483647, 'harshi2');
 
 --
