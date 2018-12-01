@@ -8,7 +8,7 @@ if(isset($_GET['logout']))
 {
   unset($_SESSION['email']);
   session_destroy();
-  header('location:index.php');
+  header('location:home.php');
 }
 if(isset($_SESSION['email']))
 {
@@ -18,7 +18,7 @@ if(isset($_GET['logout']))
 {
   unset($_SESSION['email']);
   session_destroy();
-  header('location:index.php');
+  header('location:home.php');
 }
 ?>
 <!DOCTYPE html>
