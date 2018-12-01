@@ -56,7 +56,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
-	$dbname = "rms";
+	$dbname = "harshi";
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	if ($conn->connect_error)
 	{
